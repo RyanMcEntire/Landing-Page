@@ -148,13 +148,14 @@ button {
     max-width: 700px;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    color: #1F2937
+    color: #1F2937;
 }
 
 .author {
@@ -171,32 +172,33 @@ button {
 }
 
 .call-box-container {
-    display: flex;
     margin: auto;
     max-width: 1000px;
-}
+    vertical-align: center;
+    padding-top: 125px;
 
+}
 
 .call-box {
     background-color: #3882F6;
-    padding: 40px 200px;
-    display: flex;
-    align-items: center;
-}
-
-.call-container {
-    width: 600px;
-    display: flex;
-    justify-content: space-between;
+    height: 100px;
 }
 
 .call-text {
+    padding-left: 50px;
+    padding-top: 25px;
 }
 
 .call-action {
     display: flex;
     font-size: 25px;
     font-weight: 900;
+}
+
+button.bottom {
+    border-color: white;
+    border-style: outset;
+    float: right;
 }
 
 .footer {
@@ -210,10 +212,4 @@ button {
 
 .top, .bottom {
     font-size: 18px;;
-}
-
-button.bottom {
-
-    border-color: white;
-    border-style: outset;
 }
