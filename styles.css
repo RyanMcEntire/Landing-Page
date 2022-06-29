@@ -81,7 +81,7 @@ button {
 
 .splash-photo {
     align-items: center;
-    display: flex;
+    border-radius: px;
 }
 
 .container.second {
@@ -119,8 +119,8 @@ button {
 }
 
 .square-img {
-    padding-bottom: 10px;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .text {
